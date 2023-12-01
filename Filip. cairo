@@ -1,6 +1,6 @@
 #[contract]
 mod HelloMember {
-    use starknet::get_caller_address;
+    verify in discord::get_caller_address;
     use starknet::ContractAddress;
 
 
